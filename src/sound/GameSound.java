@@ -8,14 +8,14 @@ public class GameSound {
 	public static GameSound instance;
 
 	public static final String MENU = "menu.wav";
-	public static final String PLAYGAME = "playgame.mid";
-	public static final String BOMB = "newbomb.wav";
-	public static final String BOMBER_DIE = "bomber_die.wav";
-	public static final String MONSTER_DIE = "monster_die.wav";
-	public static final String BONG_BANG = "bomb_bang.wav";
-	public static final String ITEM = "item.wav";
-	public static final String WIN = "win.wav";
-	public static final String LOSE = "lose.mid";
+	public static final String PLAYGAME = "play_game.wav";  //Da sua
+	public static final String BOMB = "newbomb.wav";    // Da sua
+	public static final String BOMBER_DIE = "bomber_die.wav";	//Da sua
+	public static final String MONSTER_DIE = "monster_die.wav"; //Da sua
+	public static final String BONG_BANG = "bomb_bang.wav"; //Da sua
+	public static final String ITEM = "item.wav";   // Da sua
+	public static final String WIN = "win.wav";     //Da sua
+	public static final String LOSE = "lose.wav";   //Da sua
 	private HashMap<String, AudioClip> audioMap;
 
 	public GameSound() {
@@ -31,7 +31,7 @@ public class GameSound {
 	}
 
 	public void loadAllAudio() {
-		putAudio(MENU);;
+		putAudio(MENU);
 		putAudio(PLAYGAME);
 		putAudio(BOMB);
 		putAudio(MONSTER_DIE);

@@ -6,8 +6,8 @@
 0:405:1:/Images/box1.png
 0:495:1:/Images/box1.png
 45:45:0:/Images/box2.png
-45:135:0:/Images/box2.png
-45:225:0:/Images/box2.png
+45:135:0:/Images/box2.jpg
+45:225:0:/Images/box2.jpg
 45:315:0:/Images/box2.png
 45:405:0:/Images/box2.png
 45:495:0:/Images/box2.png
